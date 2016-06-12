@@ -1,0 +1,9 @@
+$(".left").on("click",function(){
+	$(".city").css({"-webkit-transform":"translateX(0)"});
+})
+$(".close").on("click",function(){
+	$(".city").css({"-webkit-transform":"translateX(-100%)"});
+})
+$(".back").on("click",function(){
+	$(".city").css({"-webkit-transform":"translateX(-100%)"});
+})
